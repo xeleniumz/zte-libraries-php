@@ -1,4 +1,11 @@
 <?php
+<?php
+/**
+* @ This class work with only zte onu
+* @author Xeleniumz Fx
+* @version 1.0
+* @date 16/2/2015
+* */
 class Onu
 {
 	public $onu_no = '1.3.6.1.4.1.3902.1012.3.28.1.1.6';
