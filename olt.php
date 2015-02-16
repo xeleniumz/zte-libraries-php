@@ -34,7 +34,7 @@ class Olt extends Component
 			$data = $this->gpon_status.'.'.$id;
 			$rs = snmpwalk($ip,$this->community,$data);
 			$rs = explode(' ', $rs[0]);
-			$res = ($rs[1] == 1) ? '<button class="btn btn-success">ONLINE</button>':'<button class="btn btn-danger">OFFLINE</button>';
+			$res = ($rs[1] == 1) ? 'ONLINE':'OFFLINE';
 			return $res;
 		}
 	}
