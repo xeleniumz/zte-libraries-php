@@ -1,5 +1,11 @@
 <?php
-class Olt extends Component
+/**
+ * @ This class work with only zte olt
+ * @author Xeleniumz Fx
+ * @version 1.0
+ * @date 16/2/2015
+ * */
+class Olt
 {
 	public $olt_name = '1.3.6.1.2.1.1.5.0';
 	public $snmp_get_octet  = '1.3.6.1.2.1.2.2.1.1';
