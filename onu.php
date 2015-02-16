@@ -1,5 +1,4 @@
 <?php
-<?php
 /**
 * @ This class work with only zte onu
 * @author Xeleniumz Fx
