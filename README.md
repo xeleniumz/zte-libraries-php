@@ -6,8 +6,10 @@ if you have any question or suggesstion. Please tell me. Enjoy !
 * **PHP Extension**  
 * sudo apt-get install apache2-prefork-dev libxml2-dev libsnmp libsnmp-dev libtool
 * sudo apt-get install snmpd
-* sudo apt-get install php5-snmp
+* sudo apt-get install php7-snmp
 
 ## Getting Started
 * **Extends Class with your PHP object** - to use this library you can exntends them and send the parameter which you want to method and then it will return array,object,result from olt/onu 
+
+## Already support PHP7
 
